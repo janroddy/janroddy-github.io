@@ -27,6 +27,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script src="js/main.js"></script>
+
 </head>
 <body>
 
@@ -36,12 +38,17 @@
     <div class="one-half column" style="margin-top: 10%" >
     </div>
     <div class="one-half column" style="margin-top: 10%">
-      <ul class="nav">
-        <li class="nav"><a class="nav" href="index.html">Home</a></li>
-        <li class="nav"><a class="nav" href="news.asp">CV</a></li>
-        <li class="nav"><a class="nav" href="research.html">Research</a></li>
-        <li class="nav"><a class="nav" href="mailto:jan.roddy.e@gmail.com">Contact</a></li>
-      </ul>
+      <div id ="nav-links">
+        <div class="nav">
+          <a class="nav" href="index.html">Home</a>
+          <a class="nav" href="about.html">About</a>
+          <a class="nav" href="cv.html">CV</a>
+          <a class="nav" href="research.html">Research</a>
+          <a class="nav" href="mailto:jan.roddy.e@gmail.com">Contact</a>
+        </div>
+      </div>
+        <a id ="mobile-menu" href="javascript:void(0);" class="icon" onclick="openMenu()">
+        <i class="fa fa-bars"></i></a>
     </div>
   </div> 
   
@@ -51,14 +58,14 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
         <h3 id="welcome">Hello. I'm Jan.</h3>
-        <p>I'm a Computer Science master's student at the University of Montana. My current research focus is broadening K-12 participation in Computer Science education through cross-disciplinary curriculum.</p>
+        <p>I'm a Computer Science master's student at the University of Montana in beautiful Missoula, MT. My current research focus is broadening K-12 participation in Computer Science education through cross-disciplinary curriculum.</p>
       </div>
       <div class="one-half column" style="margin-top: 5%"></div>
     </div>
     <!--end of row 1!--> 
     <div class="container">
       <div class="row">
-      <i class="fa fa-car"></i>
+      <i class="fa fa-angle-down"></i>
       </div>
   </div>
   </div>
@@ -68,8 +75,17 @@
   <!--contact links 
   _________________________________________________
   -->
-  <a href="https://github.com/janroddy" class="fas fa-code-branch"></a>
-  <a href="">email</a>
+  
+  <div class="row">
+       <div class="offset-by-ten columns"></div>
+      <div class="two columns" class="u-pull-right"  style="text-align: right" >
+      <ul class="social">
+        <li><a href="https://github.com/janroddy"><i class="fa fa-github"></i></a></li>
+        <li><a href="mailto:jan.roddy.e@gmail.com"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

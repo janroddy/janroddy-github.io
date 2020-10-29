@@ -1,37 +1,108 @@
-.nav {
+
+/* Style the navigation menu */
+/*.nav {
+  overflow: hidden;
+  position: relative;
+}
+*/
+#nav-links {
+  display: none;
+}
+
+/* Style navigation menu links */
+  a.nav{
+  text-transform: uppercase;
+  text-decoration: none;
   padding: 2%;
-  
+  text-align: right;
+  margin-right:4%;
+  color: #916A70;;
+  display: block; 
+}
+
+/* Style the  menu icon*/
+#mobile-menu i{
+  color: #916A70;;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2%;
+  font-size: 2em;
+}
+
+/* Larger than mobile */
+@media (min-width: 750px) {
+    
+  #nav-links {
+    display: block;
+  }
+  .nav {
+    padding: 2%;
+    
+  }
+  #mobile-menu {
+    display: none;
+  }
+
+  nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  a.nav {
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+
+  }
+
+  a.nav {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #916A70;;
+  }
 }
 
 
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 
-li.nav {
-  display: inline;
-  text-transform: uppercase;
-  text-decoration: none;
-
-}
-
-a.nav {
-  text-transform: uppercase;
-  text-decoration: none;
- /* color: #575757; */
- color: #916A70;;
-}
 
 
 /* Change the link color on hover */
 a:hover {
-  color: #E6DDDE;
+  color: #575757;
 }
 
 #welcome {
-   color: #916A70;;
+   color: #916A70;
 
 }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.3;
+}
+
+ul.social {
+  overflow: auto;
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: none;
+  float: left;
+}
+
+ul li a i {
+  color: #916A70;
+  text-align: right;
+  margin-right: 10px;
+  padding: 15%;
+
+}
+
+
+
