@@ -70,8 +70,14 @@
 
 
 
-
+/* 
+Link styles 
+____________________________
+*/
 /* Change the link color on hover */
+a {
+  color: #916A70;
+}
 a:hover {
   color: #575757;
 }
@@ -81,12 +87,15 @@ a:hover {
 
 }
 
-/* Add a hover effect if you want */
+.fa {
+  font-size: 2rem;
+}
+
+ul.social/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.3;
 }
-
-ul.social {
+ {
   overflow: auto;
   list-style-type: none;
 }
