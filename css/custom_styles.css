@@ -104,5 +104,18 @@ ul li a i {
 
 }
 
+ul.social {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  ul.social {
+    margin-left: 86.6666666667%;
+    width: 13.3333333333%;
+  }
+
+}
+
 
 
