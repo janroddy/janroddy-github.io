@@ -108,7 +108,7 @@ ul li {
 ul li a i {
   color: #916A70;
   text-align: right;
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 15%;
 
 }
@@ -120,11 +120,14 @@ ul.social {
 /* Larger than tablet */
 @media (min-width: 750px) {
   ul.social {
-    margin-left: 86.6666666667%;
-    width: 13.3333333333%;
+    margin-left: 50%;
+    width: 50%;
   }
 
 }
+
+
+
 
 
 
