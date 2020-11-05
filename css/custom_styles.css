@@ -15,7 +15,16 @@
   font-family: 'Source Code Pro', monospace;
   font-size: 2.4rem;
   font-weight: 200;
+  display: none;
 }
+
+@media (min-width: 750px) {
+  #name {
+   display:inline; 
+  }
+
+}
+
 #nav-links {
   display: none;
 }
@@ -117,7 +126,7 @@ ul.social/* Add a hover effect if you want */
 a.social {
   list-style-type: none;
   float: left;
-  padding: 15%;
+ 
 }
 
 
@@ -131,16 +140,17 @@ ul li a i {
 
 i.social {
   margin-right: 20px; 
-  padding: 15%;
+
 }
 
-
+.r-img {
+  display: none;
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  ul.social {
-    margin-left: 50%;
-    width: 50%;
+  .r-img {
+    display: inline;
   }
 
 }
@@ -158,6 +168,12 @@ ____________________________
   border-top: 1px solid grey;
   margin-bottom: 10%;
   margin-top: 10%;
+  text-align: center;
+}
+
+i.social {
+  padding: 4%;
+
 }
 
 
