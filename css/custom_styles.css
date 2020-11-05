@@ -4,7 +4,18 @@
   overflow: hidden;
   position: relative;
 }
+
+
 */
+
+#name {
+  padding-left: 10%;
+  padding-top: -10%;
+  color: #916A70;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.4rem;
+  font-weight: 200;
+}
 #nav-links {
   display: none;
 }
@@ -12,6 +23,7 @@
 /* Style navigation menu links */
   a.nav{
   text-transform: uppercase;
+  font-family: 'Source Code Pro', monospace, Arial, sans-serif;
   text-decoration: none;
   padding: 2%;
   text-align: right;
@@ -89,6 +101,7 @@ a:hover {
 
 .fa {
   font-size: 2rem;
+  padding: 1.5%;
 }
 
 ul.social/* Add a hover effect if you want */
@@ -100,10 +113,13 @@ ul.social/* Add a hover effect if you want */
   list-style-type: none;
 }
 
-ul li {
+
+a.social {
   list-style-type: none;
   float: left;
+  padding: 15%;
 }
+
 
 ul li a i {
   color: #916A70;
@@ -113,9 +129,12 @@ ul li a i {
 
 }
 
-ul.social {
-
+i.social {
+  margin-right: 20px; 
+  padding: 15%;
 }
+
+
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -126,6 +145,20 @@ ul.social {
 
 }
 
+#contact {
+  color: #916A70;
+}
+
+/*
+footer styles 
+____________________________
+*/
+
+.site-footer {
+  border-top: 1px solid grey;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
 
 
 
