@@ -123,12 +123,6 @@ ul.social/* Add a hover effect if you want */
 }
 
 
-a.social {
-  list-style-type: none;
-  float: left;
- 
-}
-
 
 ul li a i {
   color: #916A70;
@@ -138,10 +132,6 @@ ul li a i {
 
 }
 
-i.social {
-  margin-right: 20px; 
-
-}
 
 .r-img {
   display: none;
